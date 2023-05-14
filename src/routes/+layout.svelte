@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия</a>
+        <a href="/" class="nav-logo" title="Back to Homepage">Андрей Кузнецов</a>
         <div class="nav-links">
             {#each nav as link}
 				{#if link.isShow}
@@ -40,13 +40,14 @@
         {
 			title: 'temp',
 			href: '/temp',
-			isShow: true
+			isShow: false
 		}
 	]
 </script>
 <style>
-    .container {
-        max-width: 1400px;
-        margin: 50px auto;
-    }
+       .container {
+           margin: 50px auto;
+           max-width: 800px;
+           padding: 0 20px;
+       }
 </style>
